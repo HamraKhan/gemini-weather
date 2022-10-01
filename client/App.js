@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
-import Dashboard from './src/components/dashboardPage';
+import { View } from 'react-native';
+import Dashboard from './src/screens/dashboardPage';
 import useFonts from './src/styles/fonts';
 import AppLoading from 'expo-app-loading';
 import React, { useState } from 'react';

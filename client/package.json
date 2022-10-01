@@ -1,8 +1,8 @@
 {
-  "name": "av2",
+  "name": "gemini-weather",
   "version": "1.0.0",
   "proxy": "http://localhost:5000",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "entry.js",
   "assets": [
     "./assets/fonts/"
   ],
@@ -10,7 +10,11 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.0",
@@ -24,7 +28,10 @@
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "react-test-renderer": "18.0.0",
+    "jest": "^26.6.3",
+    "jest-expo": "^46.0.1"
   },
   "private": true
 }

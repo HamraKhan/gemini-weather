@@ -6,7 +6,7 @@ import Dashboard from '.';
 describe('dashboardPage', () => {
   test('should render successfully', () => {
     const screen = renderer.create(<Dashboard />).toJSON();
-    expect(screen.children.length).toBe(2);
+    expect(screen.children.length).toBe(1);
   });
 
   test('should display background image', () => {

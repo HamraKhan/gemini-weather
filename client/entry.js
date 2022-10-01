@@ -14,8 +14,7 @@ if (Platform.OS === 'web') {
   rootTag.render(<View
         style={{
           flex: 1,
-          justifyContent: "center",
-          backgroundColor: "#44bb44"
+          justifyContent: "center"
         }}
       >
         <RootComponent  />
