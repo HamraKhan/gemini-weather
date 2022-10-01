@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "av2",
-    "slug": "av2",
+    "name": "gemini-weather",
+    "slug": "gemini-weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
