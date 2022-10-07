@@ -26,7 +26,7 @@ export default function App() {
     <View style={{
           height: '-webkit-fill-available'
         }}>
-      <Dashboard />
+      <Navbar />
       <StatusBar />
     </View>
   );
