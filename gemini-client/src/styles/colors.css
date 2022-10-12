@@ -1,0 +1,16 @@
+/*color pallette*/
+:root {
+    --header: #2F2F2F;
+    --search-bar-bkgd: #E2DFDF;
+    --blue: #00C2FF;
+    --newsfeed-page-bkgd: #F2F2F2;
+    --selected-filter-btn: #827F7F;
+    --dropdown-line-break: #CFCFCF;
+    --location-dropdown-list: #696767;
+    --off-white: #FBFBFB;
+    --off-black: #515151;
+    --red: #FF3D00;
+    --transparent-white: #F4F4F4BF;
+    --white: #fff;
+    --black: #000;
+}
